@@ -1,0 +1,40 @@
+{
+  "name": "onenote-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"(optional) add eslint later\""
+  },
+  "dependencies": {
+    "@dnd-kit/core": "6.0.8",
+    "@dnd-kit/sortable": "7.0.2",
+    "@dnd-kit/utilities": "3.2.1",
+    "@tiptap/extension-placeholder": "2.3.2",
+    "@tiptap/extension-task-item": "2.3.2",
+    "@tiptap/extension-task-list": "2.3.2",
+    "@tiptap/react": "2.3.2",
+    "@tiptap/starter-kit": "2.3.2",
+    "framer-motion": "10.16.4",
+    "lucide-react": "0.291.0",
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.4.1",
+    "@tailwindcss/typography": "0.5.10",
+    "postcss": "8.4.33",
+    "autoprefixer": "10.4.17"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "@types/react": "18.2.48",
+    "@types/node": "20.11.19"
+  },
+  "engines": {
+    "node": ">=18.17 <23",
+    "npm": ">=9"
+  }
+}
